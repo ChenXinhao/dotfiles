@@ -6,15 +6,19 @@ export ZSH=/home/dash/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 
-# ZSH_THEME="bureau"
-# ZSH_THEME="amuse"
-# ZSH_THEME="avit"
-# ZSH_THEME="bira"
-# ZSH_THEME="sporty_256"
-# ZSH_THEME="kardan"
-# ZSH_THEME="powerline"
-# ZSH_THEME="agnoster"
-ZSH_THEME="afowler"
+#ZSH_THEME="bureau"
+#ZSH_THEME="amuse"
+#ZSH_THEME="avit"
+#ZSH_THEME="bira"
+#ZSH_THEME="sporty_256"
+#ZSH_THEME="kardan"
+#ZSH_THEME="powerline"
+#ZSH_THEME="agnoster"
+#ZSH_THEME="afowler"
+#ZSH_THEME="aussiegeek"
+#ZSH_THEME="frisk"
+#ZSH_THEME="mortalscumbag"
+ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -54,7 +58,7 @@ ZSH_THEME="afowler"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history-substring-search)
+plugins=(git history-substring-search tmux)
 
 # User configuration
 
